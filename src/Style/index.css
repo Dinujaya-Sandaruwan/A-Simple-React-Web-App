@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  background-color: rgb(41, 41, 41);
+  color: #fff;
+}
+
+div.App {
+  display: flex;
+}
+div.App aside.form-input {
+  background-color: black;
+  width: 500px;
+  height: 100vh;
+}
+div.App .title {
+  margin: 0px;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+div.App main .feild {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+div.App main .feild label {
+  font-size: 1.2rem;
+  width: 30%;
+}
+div.App main .feild input {
+  font-size: 1.2rem;
+  width: 60%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+div.App main div {
+  display: flex;
+  justify-content: center;
+}
+div.App main div .submit {
+  margin-top: 10px;
+  width: 95%;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: rgb(0, 0, 151);
+  color: #fff;
+}
+div.App aside.display-data {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  overflow: hidden;
+}
+div.App aside.display-data .one-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: rgb(37, 37, 37);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px;
+  height: 215px;
+  transition-duration: 500ms;
+}
+div.App aside.display-data .one-data img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+div.App aside.display-data .one-data h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 5px;
+}
+div.App aside.display-data .one-data p {
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 5px;
+}
+div.App aside.display-data .one-data:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=index.css.map */
